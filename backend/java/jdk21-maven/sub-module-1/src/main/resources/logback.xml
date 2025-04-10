@@ -6,11 +6,11 @@
 
   Example: <springProperty name="logLevel" source="logging.level"/>
   -->
-  <variable name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M:%L - %msg%n" />
-  <variable name="charset" value="UTF-8" />
-  <variable name="logPath" value="logs" />
-  <variable name="appName" value="app" />
-  <variable name="logLevel" value="DEBUG" />
+  <variable name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M:%L - %msg%n"/>
+  <variable name="charset" value="UTF-8"/>
+  <variable name="logPath" value="logs"/>
+  <variable name="appName" value="app"/>
+  <variable name="logLevel" value="DEBUG"/>
 
   <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
     <encoder>
