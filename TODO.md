@@ -18,10 +18,10 @@
 
 ### Vue
 
-- [ ] Create a Vue3 project with JavaScript
-- [ ] Create a Vue3 project with TypeScript
+- [ ] Create a [Vue3](https://vuejs.org/) project with [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [x] Create a [Vue3](https://vuejs.org/) project with [TypeScript](https://www.typescriptlang.org/)
 
 ### React
 
-- [ ] Create a React project with JavaScript
-- [ ] Create a React project with TypeScript
+- [ ] Create a [React](https://react.dev/) project with [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [ ] Create a [React](https://react.dev/) project with [TypeScript](https://www.typescriptlang.org/)
