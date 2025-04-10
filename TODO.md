@@ -5,7 +5,7 @@
 ### Java
 
 - [ ] Add code style / quality tools to maven project, such as [Spotless](https://github.com/diffplug/spotless), [Checkstyle](https://github.com/checkstyle/checkstyle), [SonarQube](https://github.com/SonarSource/sonarqube)...
-- [ ] Add [MapStruct](https://mapstruct.org/) to maven project for bean mapping
+- [x] Add [MapStruct](https://mapstruct.org/) to maven project for bean mapping
 - [x] Add [JUnit 5](https://junit.org/junit5/) to maven project for testing
 - [x] Add [Logback](https://logback.qos.ch/) to maven project
 - [ ] Create a [Gradle](https://gradle.org/) project
