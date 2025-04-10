@@ -1,0 +1,41 @@
+<!-- See https://logback.qos.ch/manual -->
+<configuration>
+  <!--
+  If using Spring Boot, the following variables can read from application.yml config file with springProperty tag.
+  The filename of logback config file should be logback-spring.xml.
+
+  Example: <springProperty name="logLevel" source="logging.level"/>
+  -->
+  <variable name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M:%L - %msg%n" />
+  <variable name="charset" value="UTF-8" />
+  <variable name="logPath" value="logs" />
+  <variable name="appName" value="app" />
+  <variable name="logLevel" value="DEBUG" />
+
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${pattern}</pattern>
+      <charset>${charset}</charset>
+    </encoder>
+  </appender>
+
+  <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <encoder>
+      <pattern>${pattern}</pattern>
+      <charset>${charset}</charset>
+    </encoder>
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <!-- app.2025-04-10.0.log, app.2025-04-10.1.log, app.2025-04-10.n.log -->
+      <fileNamePattern>${logPath}/${appName}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      <maxFileSize>20MB</maxFileSize>
+      <maxHistory>30</maxHistory>
+      <totalSizeCap>1GB</totalSizeCap>
+    </rollingPolicy>
+  </appender>
+
+  <root level="${logLevel}">
+    <appender-ref ref="CONSOLE"/>
+    <appender-ref ref="FILE"/>
+  </root>
+</configuration>
