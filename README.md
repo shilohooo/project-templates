@@ -7,7 +7,8 @@
 |                   Name                    |   Type   |  Language  |
 |:-----------------------------------------:|:--------:|:----------:|
 | [jdk21-maven](./backend/java/jdk21-maven) | Backend  |    Java    |
-|     [vue3-ts](./frontend/vue/vue3-ts)     | Frontend | TypeScript | 
+|     [vue3-ts](./frontend/vue/vue3-ts)     | Frontend | TypeScript |
+|     [vue3-js](./frontend/vue/vue3-js)     | Frontend | JavaScript |
 
 ## 💪 Contributors
 

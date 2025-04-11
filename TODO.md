@@ -18,7 +18,7 @@
 
 ### Vue
 
-- [ ] Create a [Vue3](https://vuejs.org/) project with [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [x] Create a [Vue3](https://vuejs.org/) project with [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [x] Create a [Vue3](https://vuejs.org/) project with [TypeScript](https://www.typescriptlang.org/)
 
 ### React
