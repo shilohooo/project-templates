@@ -2,6 +2,13 @@
 
 🚧 Under development...
 
+## Project Nav
+
+|                   Name                    |   Type   |  Language  |
+|:-----------------------------------------:|:--------:|:----------:|
+| [jdk21-maven](./backend/java/jdk21-maven) | Backend  |    Java    |
+|     [vue3-ts](./frontend/vue/vue3-ts)     | Frontend | TypeScript | 
+
 ## 💪 Contributors
 
 |                                             Shiloh                                              |
