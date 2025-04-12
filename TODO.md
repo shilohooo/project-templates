@@ -24,4 +24,4 @@
 ### React
 
 - [ ] Create a [React](https://react.dev/) project with [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [ ] Create a [React](https://react.dev/) project with [TypeScript](https://www.typescriptlang.org/)
+- [x] Create a [React](https://react.dev/) project with [TypeScript](https://www.typescriptlang.org/)
